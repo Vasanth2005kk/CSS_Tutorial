@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Jersey+25+Charted&family=Oswald:wght@200..700&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+
+h1{
+    color: cadetblue;
+    font-variant: small-caps;
+}
+
+/* p{
+    font-family: "Grey Qo", cursive;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 25px;
+} */
+
+/* or */
+
+p{
+    font:400 25px "Grey Qo", cursive;
+}
