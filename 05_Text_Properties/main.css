@@ -1,0 +1,20 @@
+h2{
+    text-align: center;
+    letter-spacing: 10px;
+    text-decoration: underline;
+    text-transform: uppercase;
+
+}
+
+p{
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 30px;
+}
+
+h1{
+    text-align: center;
+}
+span{
+    vertical-align: sub;
+}
