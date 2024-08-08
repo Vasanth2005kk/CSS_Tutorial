@@ -1,0 +1,47 @@
+h2{
+    font-variant: small-caps;
+}
+.linear{
+    width: 200px;
+    height: 200px;
+    
+    background: linear-gradient(-45deg,green,red,orange);
+}
+
+.re_linear{
+    width: 200px;
+    height: 200px;
+
+    background: repeating-linear-gradient(red, yellow 10%, green 20%);
+}
+
+.redial{
+    width: 200px;
+    height: 200px;
+
+    background:radial-gradient(circle closest-corner at 50% 50%,red,green,blue);
+}
+
+.re_redial{
+    width: 200px;
+    height: 200px;
+
+    background: repeating-radial-gradient(red, yellow 10%, green 15%);
+}
+
+.conic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+    background: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
+    
+}
+
+.re_conic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+    background: repeating-conic-gradient(red 0deg 10deg, yellow 10deg 20deg, blue 20deg 30deg);
+}

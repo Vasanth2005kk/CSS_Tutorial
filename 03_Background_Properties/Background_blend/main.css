@@ -1,0 +1,83 @@
+h2{
+    font-variant: small-caps;
+}
+.normal{
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-image: url("img_tree.gif"),url(peper.png);
+    
+    background-blend-mode: normal;
+  }
+  .multiply{
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-image: url("img_tree.gif"),url(peper.png);
+
+    background-blend-mode: multiply;
+  } 
+  .screen{
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-image: url("img_tree.gif"),url(peper.png);
+
+    background-blend-mode:screen;
+  } 
+  .overlay{
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-image: url("img_tree.gif"),url(peper.png);
+
+    background-blend-mode: overlay;
+  } 
+  .darken{
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-image: url("img_tree.gif"),url(peper.png);
+
+    background-blend-mode: darken;
+  } 
+  .lighten{
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-image: url("img_tree.gif"),url(peper.png);
+
+    background-blend-mode: lighten;
+  } 
+  .color_dodge{
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-image: url("img_tree.gif"),url(peper.png);
+
+    background-blend-mode: color-dodge;
+  } 
+  .saturation{
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-image: url("img_tree.gif"),url(peper.png);
+
+    background-blend-mode: saturation;
+  } 
+  .color{
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-image: url("img_tree.gif"),url(peper.png);
+
+    background-blend-mode: color;
+  } 
+  .luminosity{
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-image: url("img_tree.gif"),url(peper.png);
+
+    background-blend-mode: luminosity;
+  } 

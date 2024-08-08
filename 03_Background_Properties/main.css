@@ -1,0 +1,79 @@
+.background_color{
+    width: 200px;
+    height: 150px;
+
+    background-color: aqua;
+}
+.background_image{
+    width: 200px;
+    height: 150px;
+
+    background-image: url(images/emoji.jpg);
+}
+.background_repeat{
+    width: 500px;
+    height: 150px;
+    background-color: goldenrod;
+    background-image: url(images/emoji.jpg);
+
+    background-repeat: no-repeat;
+}
+/* .background_position_and_background_image{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    background-image: url(images/emoji.jpg);
+    background-repeat: no-repeat;
+
+    background-position: center center;
+    background-position: 50px 50px ;
+    background-size: 100px 100px ;
+} */
+        /* OR */
+
+    /********************
+    esey way in background  
+    *********************/
+
+.background_position_and_background_image{
+    width: 200px;
+    height: 200px;
+    background: pink url(images/emoji.jpg) no-repeat center;
+    background-size: 100px 100px;
+}
+
+.background_attachment{
+    width: 800px;
+    height: 500px;
+    text-align: justify;
+    background-image: url(images/emoji.jpg);
+    
+    /* background-attachment: scroll; */
+    background-attachment: fixed;
+}
+
+.background_origin{
+    width: 300px;
+    height: 300px;
+    background-color: gold;
+    border: 18px black dashed;
+    text-align: center;
+    background-image: url(images/emoji.jpg);
+    background-repeat: no-repeat;
+    padding: 20px;
+    
+    /* background-origin: padding-box;   */ /* defalt this position */
+    /* background-origin: content-box; */
+    background-origin: border-box;
+}
+
+.background_clip{
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    background-image: url(images/emoji.jpg);
+    background-size: 70px;
+    
+    color: transparent;
+    background-clip: text;
+}
