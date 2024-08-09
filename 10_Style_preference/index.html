@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Style preference</title>
+    <style>
+        /* thored preference */
+        p{
+            color: green;  
+        }
+        /* second preference */
+        .box{
+            color: orange !important; /* (!important) is check the code get in frsit preference */
+        }
+        /* frist preference */
+        #box p{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h2>1.frist preference</h2>
+    <div id="box">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime impedit optio fugit cupiditate aperiam ipsa ipsam dolore, harum, quae voluptate odio quidem aspernatur dolorum ullam? Atque deleniti quae voluptas a.</p>
+    <p class="box">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime impedit optio fugit cupiditate aperiam ipsa ipsam dolore, harum, quae voluptate odio quidem aspernatur dolorum ullam? Atque deleniti quae voluptas a.</p>
+
+    </div>
+    
+    <h2>2.second preference</h2>
+    <p class="box">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime impedit optio fugit cupiditate aperiam ipsa ipsam dolore, harum, quae voluptate odio quidem aspernatur dolorum ullam? Atque deleniti quae voluptas a.</p>
+
+    <h2>3.thored preference</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime impedit optio fugit cupiditate aperiam ipsa ipsam dolore, harum, quae voluptate odio quidem aspernatur dolorum ullam? Atque deleniti quae voluptas a.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime impedit optio fugit cupiditate aperiam ipsa ipsam dolore, harum, quae voluptate odio quidem aspernatur dolorum ullam? Atque deleniti quae voluptas a.</p>
+
+</body>
+</html>
