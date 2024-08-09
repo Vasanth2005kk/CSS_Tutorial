@@ -1,0 +1,47 @@
+ul li{
+    list-style-type: none;
+}
+.type .one{
+    list-style-type: disc;
+}
+.type .two{
+    list-style-type: circle;
+}
+.type .three{
+    list-style-type: square;
+}
+.type .fover{
+    list-style-type: decimal;
+}
+.type .five{
+    list-style-type: lower-roman;
+}
+.type .six{
+    list-style-type: upper-roman;
+}
+.type .seven{
+    list-style-type: lower-alpha;
+}
+.type .eight{
+    list-style-type: upper-alpha;
+    
+}
+
+
+.image ul li::before{
+    content: "";
+    display: inline-block;
+    margin-right: 10px;
+    height: 10px;
+    width: 10px;
+
+    background-size: cover;
+    background-image: url(images.jpeg);
+    /* background-color: red; */
+
+}
+
+.position{
+    /* list-style-position: outside;  */ /*defalut*/
+    list-style-position: inside;    
+}
