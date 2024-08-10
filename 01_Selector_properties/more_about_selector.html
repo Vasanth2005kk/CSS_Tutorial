@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>more aboute selectors in css</title>
+    <style>
+        /*  universal  selector (all selector) */
+        /* * {
+            text-align: center;
+            color: blue;
+        } */
+
+
+        /* class (.box1) is bottom single (p tag)  */
+        /* .box1 + p {
+            color: red;
+        } */
+
+
+        /* class (.box1) this child in all (p tag) only   */
+        .box1 > p{
+            color: aqua;
+        }
+
+
+        /* one div two class name declore the name is overrider the propertie in paricular class impoertan the table chioose the class in idinify the (~) symbole  */
+        div[class ~= "innerbox1"] {
+            color: blueviolet;
+        }
+        .text{
+            color: black;
+        }
+
+
+        /* staring  ^ */
+        a[href ^= "x"]{
+            color: red;
+        }
+
+        /* ending $ */
+        a[href $= ".com"]{
+            color:darkgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>1.More aboute selectors in css</h1>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque maiores sequi sapiente aut facere modi quia
+        obcaecati maxime in a.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque maiores sequi sapiente aut facere modi quia
+        obcaecati maxime in a.</p>
+    <div class="box1">
+
+        <p>Lorem ipsum dolor
+            iste, quisquam ratione reiciendis qui ut dicta possimus, neque ad, quis maiores officia odit error a!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint velit doloribus cupiditate.</p>
+        <div class="innerbox1 text">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus cupiditate architecto saepe eaque ipsa
+                ullam magnam adipisci. Assumenda, modi voluptate?</p>
+            <h1>heading tag in h1</h1>
+            <h3>innser box1 in div tag</h3>
+        </div>
+    </div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum inventore fugit placeat quasi ipsa culpa animi
+        nihil aspernatur, facere natus corrupti molestiae ab consequatur unde neque possimus soluta nemo excepturi?</p>
+    <div class="box2"></div>
+    <h2>links tags </h2>
+    <a href="xt.png">link1</a>
+    <a href="text.pdf">link2</a>
+    <a href="text.com">link3</a>
+    <a href="vasanth.com">link4 </a>
+</body>
+
+</html>
