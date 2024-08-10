@@ -1,0 +1,47 @@
+/*  
+    box-shadow:<horizontal> <vertical> ;
+    
+    box-shadow:<horizontal> <vertical> <color>;
+
+    box-shadow:<horizontal> <vertical> <blur effect> <color>;
+    
+    box-shadow:<horizontal> <vertical> <blur effect> <radius> <color>
+    
+    */
+
+
+
+.one{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+
+    box-shadow: 10px 10px ;
+
+}
+
+.two{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+
+    box-shadow: 10px 10px red ;
+
+}
+.three{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+
+    box-shadow: 10px 10px 5px red;
+
+}
+
+.fover{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+
+    box-shadow: 10px 10px 5px 8px red ;
+
+}
