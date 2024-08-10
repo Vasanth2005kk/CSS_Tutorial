@@ -18,3 +18,8 @@ h1{
 span{
     vertical-align: sub;
 }
+
+h1 a{
+    color: red;
+    text-decoration: none;
+}
