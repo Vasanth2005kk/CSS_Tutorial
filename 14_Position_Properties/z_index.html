@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-index in css</title>
+    <style>
+        .main{
+            width: 500px;
+            height: 450px;
+            border: 5px solid black;
+
+            position: relative;
+        }
+        .main div{
+            color: white;
+            text-align: center;
+            line-height: 30px;
+
+            position: absolute;
+        }
+
+        .box-1{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+
+            top: 100px;
+            left: 150px;
+            z-index: 4;
+        }
+        .box-2{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+
+            top: 150px;
+            left: 200px;
+            z-index: 3;
+        }
+        .box-3{
+            width: 100px;
+            height: 100px;
+            background-color:rebeccapurple;
+
+            top: 200px;
+            left: 250px;
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+    <h2>1.Z-index in css</h2>
+    <div class="main">
+        <div class="box-1">BOX-1 <br>z-index: 4;</div>
+        <div class="box-2">BOX-2 <br>z-index: 3;</div>
+        <div class="box-3">BOX-3 <br>z-index: 0;</div>
+    </div>
+</body>
+</html>

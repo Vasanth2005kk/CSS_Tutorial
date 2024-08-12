@@ -1,0 +1,97 @@
+/* static is default position */
+.static_box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+
+}
+
+/* relative Position */
+
+.rel_main{
+    width: 250px;
+    height: 250px;
+    border: 5px solid gray;
+}
+
+.rel_main .box1{
+    width: 100px;
+    height: 100px;
+    background-color:green;
+
+    position: relative;
+    left: 80px;
+    top: 50px;
+
+}
+.rel_main .box2{
+    width: 100px;
+    height: 100px;
+    background-color:yellow;
+
+    margin-left: 20px;
+}
+
+/* Absolute position */
+
+.abs_main{
+    width: 250px;
+    height: 250px;
+    border: 5px solid black;
+
+    position: relative;
+}
+
+.abs_main .box1{
+    width: 100px;
+    height: 100px;
+    background-color:red;
+
+    position: absolute;
+    bottom: 10px;
+
+}
+.abs_main .box2{
+    width: 100px;
+    height: 100px;
+    background-color:orangered;
+    
+    position: absolute;
+    right: 0px;
+}
+
+/* Fixed position */
+
+.fix{
+    width: 100px;
+    height:100px;
+    text-align: center;
+    background-color: aqua;
+
+    position: fixed;
+    top: 10px;
+    right: 200px;
+
+}
+
+/* sticky  position*/
+
+.nav_sticky{
+    width: 100%;
+    height: 50px;
+    background-color: chartreuse;
+
+    position: sticky;
+    top:10px; /* ==> conform use the propertie */
+
+}
+.nav_sticky ul li {
+    display: inline-block;
+    margin-top: 15px;
+    padding-left: 10px;
+    color: white;
+}
+
+.nav_sticky ul li:hover{
+    color: red;
+}
