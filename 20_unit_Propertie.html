@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Unit</title>
+    <!--
+    unit css in two type there : 1.absolute unit 2.relative unit 
+
+    1.absolute unit:
+
+        cm ==> centimeters
+        mm ==> millimeters
+        in ==> inches
+        px ==> pixels
+        pt ==> points
+        pc ==> picas
+
+    2.relative unit:
+        
+        em
+        rem ==> root em or relative em
+        ch
+        ex
+        vw ==> viewport width
+        vh ==> viewport height
+        vmax ==> viewport maxinum
+        vmin ==> viewport mininum
+        % ==> percentage
+
+     -->
+    <style>/* px (pixels) */
+        .px{
+            font-size: 10px;
+        }
+        
+        /* %(percentage) */
+        
+        .per_parent{
+            width: 300px;
+            height: 300px;
+            background-color: green;
+            text-align: center;
+            padding: 10px;
+            color: wheat;
+        }
+        .per_chiled{
+            width: 100%;
+            height: 100px;
+            background-color: red;
+        }
+        
+        /* em */
+        
+        .em_parent{
+            font-size: 30px; /*default is 16px in web browser  */
+        }
+         
+        .em_chiled{
+            font-size: 2em; /* 20px * 2 ==> 40px in font size*/
+        }
+        
+        /* rem */
+        
+        .rem_parent{
+            font-size: 30px; /*default is 16px in web browser  */
+        }
+        .rem_chiled{
+            font-size: 2em; /* 20px * 2 ==> 40px in font size*/
+        }
+        </style>
+</head>
+<body>
+    <h1>1.px (pixels)</h1>
+    <div class="px">vasanth</div>
+
+    <h1>2.%(percentage)</h1> <!--parant and chaild depating unitz-->
+    <div class="per_parent">
+        parent
+        <div class="per_chiled">chaild
+        </div>
+    </div>
+
+    <h1>3.em</h1>
+    <div class="em_parent">
+        parent
+        <div class="em_chiled">chaild
+        </div>
+    </div>
+
+    <h1>4.rem (relative em) </h1> <!-- rem is em to same but (r) mean root this default in web browser you are alter in (html) tag using the font-size -->
+    <div class="rem_parent">
+        parent
+        <div class="rem_chiled">chaild
+        </div>
+    </div>
+
+    <h2</h2>
+</body>
+</html>
