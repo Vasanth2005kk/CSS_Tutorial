@@ -20,4 +20,12 @@ combinators selectors
         css declarations;
         }
 
+    :root{
+        --<variable _name>:unit or properties;
+    }
+
+    selector {
+        propertie : var(--<variable_name>);
+    }
+
     
