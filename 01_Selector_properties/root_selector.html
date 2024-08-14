@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>root pseudo selector</title>
+    <style>
+        :root{
+            --bgcolor:green;
+            --size:40px;
+        }
+        .head{
+            background-color: var(--bgcolor);
+            color: white;
+        }
+        div p{
+            font-size: var(--size);
+        }
+        div + p {
+            color: var(--bgcolor);
+        }
+    </style>
+</head>
+<body>
+    <h1>root pseudo selector</h1>
+
+    <div class="box">
+        <h1 class="head">heading -1</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, delectus! Asperiores, quas accusamus delectus ab ad voluptates unde aut. Dolore doloremque quos reprehenderit vel repudiandae. Praesentium repellat dolor a rerum.</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus maxime sed  doloremque! Aperiam ex perspiciatis commodi molestiae, libero explicabo adipisci totam <span>minus reiciendis voluptas dolorum delectus</span> debitis, facilis accusamus?</p>
+</body>
+</html>
