@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>css pseudo class selector</title>
+
+    <style>
+        ol li:first-of-type{
+            background-color: aqua;
+        }
+        ol li:last-of-type{
+            background-color: chartreuse;
+        }
+        ol li:nth-of-type(3){
+            background-color: brown;
+        }
+        p:first-of-type{
+            background-color: green;
+        }
+        p:last-of-type{
+            background-color: pink;
+        }
+        div p:last-of-type{
+            background-color: navy;
+        }
+    </style>
+</head>
+<body>
+    <h1>css pseudo class selector | :first-of-type | :last-of-type | :nth-of-type(numbers)</h1>
+
+    <ol>
+        <li>item-1</li>
+        <li>item-2</li>
+        <li>item-3</li>
+        <li>item-4</li>
+        <li>item-5</li>
+    </ol>
+    <p> <b>para-1</b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae debitis quam quas, tenetur aut recusandae rerum harum dolorem quos, mollitia at laudantium molestias. Voluptatum magni doloremque aliquam dignissimos cupiditate recusandae.</p>
+
+    <p> <b>para-2</b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae debitis quam quas, tenetur aut recusandae rerum harum dolorem quos, mollitia at laudantium molestias. Voluptatum magni doloremque aliquam dignissimos cupiditate recusandae.</p>
+
+    <p> <b>para-3</b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae debitis quam quas, tenetur aut recusandae rerum harum dolorem quos, mollitia at laudantium molestias. Voluptatum magni doloremque aliquam dignissimos cupiditate recusandae.</p>
+
+    <hr>
+    <div>
+        <p> <b>perant para-1</b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae debitis quam quas, tenetur aut recusandae rerum harum dolorem quos, mollitia at laudantium molestias. Voluptatum magni doloremque aliquam dignissimos cupiditate recusandae.</p>
+
+        <p> <b>perant para-2</b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae debitis quam quas, tenetur aut recusandae rerum harum dolorem quos, mollitia at laudantium molestias. Voluptatum magni doloremque aliquam dignissimos cupiditate recusandae.</p>
+    
+        <p> <b>perant para-3</b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae debitis quam quas, tenetur aut recusandae rerum harum dolorem quos, mollitia at laudantium molestias. Voluptatum magni doloremque aliquam dignissimos cupiditate recusandae.</p>
+    </div>
+
+</body>
+</html>
