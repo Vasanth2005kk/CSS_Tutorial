@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>css pseudo class selecotor </title>
+    <style>
+        div a{
+            display: inline-block;
+            width: 50px;
+            padding: 10px;
+            text-align: center;
+            margin-left: 20px;
+            background-color: green;
+            color: white;
+            border-radius: 50px; 
+        }
+        p{
+            padding: 20px;
+            background-color: brown;
+            color: beige;
+        }
+        .one:target{
+            background-color: black;
+            color: white;
+        }
+        p:target{
+            background-color: 
+            green;
+            color: white;
+        
+        }
+        .para1{
+            background-color: black;
+                }
+    </style>
+</head>
+<body>
+    <h1>css pseudo class selecotor | :target</h1>
+    <div>
+        <a class="para1" href="#para1">link-1</a>
+        <a href="#para2">link-2</a>
+        <a href="#para3">link-3</a>    
+    </div>
+    <p class="one" id="para1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores at officiis temporibus aspernatur sunt earum necessitatibus iste et suscipit dolorem dolore sapiente deserunt amet quia excepturi beatae, minima, est error!</p>
+
+    <p id="para2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores at officiis temporibus aspernatur sunt earum necessitatibus iste et suscipit dolorem dolore sapiente deserunt amet quia excepturi beatae, minima, est error!</p>
+
+    <p id="para3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores at officiis temporibus aspernatur sunt earum necessitatibus iste et suscipit dolorem dolore sapiente deserunt amet quia excepturi beatae, minima, est error!</p>
+
+</body>
+</html>
