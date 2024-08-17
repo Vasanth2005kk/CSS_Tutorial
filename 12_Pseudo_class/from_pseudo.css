@@ -1,0 +1,39 @@
+input[id="txt"]:focus{
+    background-color: red;
+}
+
+
+input[type="checkbox"]:checked{
+    box-shadow: 0 0 0 3px red;
+}
+
+input[id="en"]:enabled{
+    background-color: aqua;
+}
+
+input[id="en"]:disabled{
+    background-color:red;
+}
+input[id="en"]:required{
+    background-color: brown;
+}
+
+input[type="email"]:read-only{
+    background-color: green;
+}
+
+input[type="email"]:read-write{
+    background-color:blue;
+}
+
+input[id="invalid"]:valid{
+    background-color: green;
+}
+
+input[id="invalid"]:invalid{
+    background-color: red;
+}
+
+input[type="radio"]:default{
+    box-shadow: 0 0 0 3px red;
+}
