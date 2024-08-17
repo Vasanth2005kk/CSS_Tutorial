@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>pseudo class selector</title>
+    <style>
+        #d1{
+            background-color: aquamarine;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        #d2{
+            background-color: cadetblue;
+            padding: 10px;
+            
+        }
+        /* normal */
+        /* #d1 h2,
+        #d1 h3,
+        #d1 h4{
+            color: blue;
+        } */
+
+        #d1 :is(h2,h3,h4) {
+            color: red;
+        }
+
+        /* normal */
+        /* #d1 h2,
+        #d2 h2{
+            background-color: blue;
+        } */
+
+        :is(#d1,#d2) :is(h2,p){
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>:is css pseudo class selector</h1>
+    <div id="d1">
+        <h2>h2 - Heading</h2>
+        <h3>h3 - Heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo facere ipsum, cupiditate vero, fugiat alias dolorum at, commodi facilis quos dignissimos? Maxime, facilis? Praesentium culpa unde corrupti, earum labore modi.</p>
+        <h4>h4 - Heading</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto esse rerum obcaecati veniam voluptates maiores adipisci nesciunt, nemo quas ipsum. Nemo dolorem molestiae, aliquam minus ut vel ea adipisci libero!</p>
+    </div>
+    <div id="d2">
+        <h2>h2 - Heading</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum fugiat, reprehenderit consequuntur incidunt ea cum in aliquid est commodi ullam accusamus, molestias ducimus voluptatum, vitae nihil impedit voluptas explicabo illo!</p>
+    </div>
+    <p><b>outlline p tag</b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod asperiores libero dolor, deserunt incidunt autem minima tempore eligendi numquam obcaecati illum tempora esse ab eveniet dolorem repellendus quis itaque ullam.</p>
+</body>
+</html>
