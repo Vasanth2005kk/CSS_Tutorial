@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Transition in css</title>
+
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: cadetblue;
+            margin: auto;
+
+            /* transition propertie */
+
+            /* transition-property: background-color,width,height;
+            transition-timing-function:ease-in;
+            transition-delay: 3s;
+            transition-duration: 0.5s,0.5s,0.5s; */
+
+            transition: all 0.5s ease-in 2s;
+        }
+
+        .box:hover{
+            background-color: red;
+            width: 400px;
+            height: 400px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Transition in css</h1>
+
+    <div class="div">
+        <div class="box"></div>
+    </div>
+</body>
+</html>
