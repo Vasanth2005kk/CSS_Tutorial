@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> FLEX WRAP </title>
+    <style>
+        .continer1{
+            border: 2px solid black;
+            width: 350px;
+        }
+        .continer2{
+            border: 2px solid black;
+            width: 350px;
+        }
+        .continer3{
+            border: 2px solid black;
+            width: 350px;
+        }
+        .box{
+            background-color: orangered;
+            color: white;
+            padding: 10px;
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+        }
+
+        /* Flex - box */
+        .continer1{
+            display: flex;
+            flex-wrap: nowrap; /* default is flex-wrap */
+        }
+        .continer2{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .continer3{
+            display: flex;
+            flex-wrap: wrap-reverse;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">FLEX WRAP</h1>
+    <h2>1.Flex-wrap | nowrap</h2>
+    <div class="continer1">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        <div class="box">box-5</div>
+    </div>
+
+    <h2>2.Flex-wrap | wrap </h2>
+    <div class="continer2">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        <div class="box">box-5</div>
+    </div>
+
+    <h2>3.Flex-wrap | wrap-reverse </h2>
+    <div class="continer3">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        <div class="box">box-5</div>
+    </div>
+
+    
+</body>
+</html>

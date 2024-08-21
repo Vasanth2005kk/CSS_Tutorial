@@ -45,4 +45,34 @@ Main Axis (vs) Cross Axis
                         |                        
                         |
                         |        
-               
+
+
+01_Flex_direction
+    
+    flex-direction:row;             #default
+    flex-direction:row-reverse;
+    flex-direction:column;
+    flex-direction: column-reverse
+
+02_Flex_wrap
+
+    flex-wrap:nowrap;               #default
+    flex-wrap:wrap;
+    flex-wrap:wrap-reverse;
+
+03_Flex_justify_content
+(main-axis alignment)
+
+    justify-content:flex-start;     #default
+    justify-content:flex-end;
+    justify-content:space-between;
+    justify-content:space-around;
+    justify-content:center;
+
+04_Flex_align_content
+(cross-axis alignment)
+
+  
+
+
+

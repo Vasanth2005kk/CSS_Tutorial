@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+                .continer1{
+            border: 2px solid black;
+            width: 350px;
+        }
+        .continer2{
+            border: 2px solid black;
+            width: 350px;
+        }
+        .continer3{
+            border: 2px solid black;
+            width: 350px;
+        }
+        .continer4{
+            border: 2px solid black;
+            width: 350px;
+        }
+        .continer5{
+            border: 2px solid black;
+            width: 350px;
+        }
+        .box{
+            background-color: orangered;
+            color: white;
+            padding: 10px;
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+        }
+
+        /* flex justify content */
+        .continer1{
+            display: flex;
+            justify-content: flex-start;
+        }
+        .continer2{
+            display: flex;
+            justify-content: flex-end;
+        }
+        .continer3{
+            display: flex;
+            justify-content: space-between;
+        }
+        .continer4{
+            display: flex;
+            justify-content: space-around;
+        }
+        .continer5{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;"> Flex justify-content</h1>
+    <h2>1.justify-content | flex-start</h2>
+    <div class="continer1">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+    </div>
+
+    <h2>2.justify-content | flex-end </h2>
+    <div class="continer2">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+    </div>
+
+    <h2>3.justify-content | space-between </h2>
+    <div class="continer3">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+    </div>
+    
+    <h2>4.justify-content | space-around </h2>
+    <div class="continer4">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+    </div>
+
+    <h2>5.justify-content | center </h2>
+    <div class="continer5">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+    </div>
+</body>
+</html>
