@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flex align-content</title>
+
+    <style>
+        .continer1{
+            border: 2px solid black;
+            width: 400px;
+            height: 200px;
+            display: flex;
+            flex-wrap: wrap;
+
+
+        }
+        .continer2{
+            border: 2px solid black;
+            width: 400px;
+            height: 200px;
+            display: flex;
+            flex-wrap: wrap;
+
+
+        }
+        .continer3{
+            border: 2px solid black;
+            width: 400px;
+            height: 200px;
+            display: flex;
+            flex-wrap: wrap;
+
+
+        }
+        .continer4{
+            border: 2px solid black;
+            width: 400px;
+            height: 200px;
+            display: flex;
+            flex-wrap: wrap;
+            
+
+
+        }
+        .continer5{
+            border: 2px solid black;
+            width: 400px;
+            height: 200px;
+            display: flex;
+            flex-wrap: wrap;
+
+
+        }
+        .box{
+            background-color: red;
+            color: white;
+            font-size: 30px;
+            text-align: center;
+            line-height: 60px;
+            width: 50px;
+            margin: 10px;
+        }
+
+        /* flex align content */
+        .continer1{
+            align-content: flex-start;
+        }
+        .continer2{
+            align-content: flex-end;
+        }
+        .continer3{
+            align-content: center;
+        }
+        .continer4{
+            align-content: baseline;
+        }
+        .continer5{
+            align-content: stretch;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Flex align-content</h1>
+
+    <h2>1.align-content | flex-start</h2>
+    <div class="continer1">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </div>
+
+    <h2>2.align-content | flex-end</h2>
+    <div class="continer2">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </div>
+    <h2>3.align-content | center</h2>
+    <div class="continer3">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </div>
+
+    <h2>4.align-content | baseline</h2>
+    <div class="continer4">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </div>
+
+    <h2>4.align-content | stretch</h2>
+    <div class="continer5">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </div>
+</body>
+</html>

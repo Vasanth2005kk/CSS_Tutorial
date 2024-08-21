@@ -63,7 +63,7 @@ Main Axis (vs) Cross Axis
 03_Flex_justify_content
 (main-axis alignment)
 
-    justify-content:flex-start;     #default
+    justify-content:flex-start;    #default
     justify-content:flex-end;
     justify-content:space-between;
     justify-content:space-around;
@@ -72,7 +72,8 @@ Main Axis (vs) Cross Axis
 04_Flex_align_content
 (cross-axis alignment)
 
-  
-
-
-
+    align-content:flex-start;       #default
+    align-content:flex-end;
+    align-content:center;
+    align-content:baseline;
+    align-content:stretch;         
