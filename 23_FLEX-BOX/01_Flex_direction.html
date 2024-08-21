@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>FLEX Direction</title>
+    <style>
+        .continer1 {
+            border: 2px solid black;
+            padding: 20px;
+        }
+
+        .continer2 {
+            border: 2px solid black;
+            padding: 20px;
+        }
+
+        .continer3 {
+            border: 2px solid black;
+            padding: 20px;
+        }
+
+        .continer4 {
+            border: 2px solid black;
+            padding: 20px;
+        }
+
+        .box {
+            background-color: brown;
+            color: white;
+            margin: 10px;
+            padding: 20px;
+        }
+
+        /* FLEX - BOX */
+
+        .continer1 {
+            display: flex;
+            flex-direction: row; /* default is row */
+        }
+
+        .continer2 {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        .continer3 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .continer4 {
+            display: flex;
+            flex-direction: column-reverse
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;">FLEX DIRECTION</h1>
+    <br>
+    <h2>1.flex-direction | row  </h2>
+    <div class="continer1">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        <div class="box">box-5</div>
+
+    </div>
+    <h2>2.flex-direction | row-reverse </h2>
+    <div class="continer2">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        <div class="box">box-5</div>
+
+    </div>
+    <h2>3.flex-direction | column </h2>
+    <div class="continer3">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        <div class="box">box-5</div>
+
+    </div>
+    <h2>4.flex-direction | column-reverse </h2>
+
+    <div class="continer4">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        <div class="box">box-5</div>
+
+    </div>
+
+</body>
+
+</html>
