@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+
+}
+
+.container{
+  border:5px solid black;
+  width: 500px;
+  margin: auto;
+}
+
+.flex-item{
+  color:white;
+  font-size: 18px;
+  padding: 16px;
+  text-align: center;
+  margin: 10px;
+}
+
+.box-1{background-color: #1abc9c;}
+.box-2{background-color:#3498db;}
+.box-3{background-color: #2ecc71;}
+.box-4{background-color: #9b59b6;}
+.box-5{background-color:#34495e;}
+
+/*-----------------------------------*/
+
+.container{
+  display: flex;
+  height: 400px;
+  flex-direction: row;
+  margin-top: 100px;
+
+}
+
+
+.box-1{
+  align-self: stretch;
+}
+.box-2{
+  align-self: flex-start;
+}
+.box-3{
+  align-self: flex-end;
+}
+.box-4{
+  align-self: center;
+}
+.box-5{
+  align-self: stretch;
+}
+  </style>
+</head>
+<body>
+    <h1 style="text-align: center;margin-top: 30px;">flex-self</h1>
+  <div class="container">
+    <div class="flex-item box-1">Box-1</div>
+    <div class="flex-item box-2">Box-2</div>
+    <div class="flex-item box-3">Box-3</div>
+    <div class="flex-item box-4">Box-4</div>
+    <div class="flex-item box-5">Box-5</div>
+  </div>
+</body>
+</html>

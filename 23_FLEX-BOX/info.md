@@ -82,3 +82,13 @@ Main Axis (vs) Cross Axis
 05_item_order  ==> chiled postion changing in order flex
 
     order:<number>; 
+
+
+06_align_self
+
+    align-self:stretch;
+    align-self:flex-end;
+    align-self:center;
+    align-self:flex-start;
+    align-self:auto;
+
