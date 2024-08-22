@@ -92,3 +92,13 @@ Main Axis (vs) Cross Axis
     align-self:flex-start;
     align-self:auto;
 
+07_flex_grow_and_shrink
+
+    flex-grow:<number>      ==> large size
+    
+    
+    flex-shrink:<number>    
+        ==> small size  
+        ==> flex-basis: 100px; /* comple the propertie */
+
+

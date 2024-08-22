@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>flex-grow and shrink</title>
+    <style>
+        /* flex grow */
+        .main_grow {
+            width: 350px;
+            height: 100px;
+            border: 1px solid #c3c3c3;
+            display: flex;
+        }
+        .main_grow div{
+            margin: 2px;
+            
+        }
+
+        .main_grow div:nth-of-type(1) {
+            flex-grow: 1;
+        }
+
+        .main_grow div:nth-of-type(2) {
+            flex-grow: 3;
+        }
+
+        .main_grow div:nth-of-type(3) {
+            flex-grow: 1;
+        }
+
+        .main_grow div:nth-of-type(4) {
+            flex-grow: 1;
+        }
+
+        .main_grow div:nth-of-type(5) {
+            flex-grow: 1;
+        }
+
+        /* flex shrink  */
+
+        .main_shrink {
+            width: 350px;
+            height: 100px;
+            border: 1px solid #c3c3c3;
+            display: flex;
+        }
+
+        .main_shrink div {
+            /* flex-grow: 1; */
+            /* flex-shrink: 1; */
+            flex-basis: 100px; /* comaple the propertie */
+            margin: 2px;
+        }
+
+        .main_shrink div:nth-of-type(2) {
+            flex-shrink: 3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>The flex-grow Property</h1>
+
+    <div class="main_grow">
+        <div style="background-color:coral;">1</div>
+        <div style="background-color:lightblue;">2</div>
+        <div style="background-color:khaki;">3</div>
+        <div style="background-color:pink;">4</div>
+        <div style="background-color:lightgrey;">5</div>
+    </div>
+
+    <h1>The flex-shrink Property</h1>
+    <div class="main_shrink">
+        <div style="background-color:coral;">1</div>
+        <div style="background-color:lightblue;">2</div>
+        <div style="background-color:khaki;">3</div>
+        <div style="background-color:pink;">4</div>
+        <div style="background-color:lightgrey;">5</div>
+    </div>
+
+</body>
+
+</html>
