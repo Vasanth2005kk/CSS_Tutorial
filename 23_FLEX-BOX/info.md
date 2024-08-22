@@ -76,4 +76,9 @@ Main Axis (vs) Cross Axis
     align-content:flex-end;
     align-content:center;
     align-content:baseline;
-    align-content:stretch;         
+    align-content:stretch;    
+
+
+05_item_order  ==> chiled postion changing in order flex
+
+    order:<number>; 

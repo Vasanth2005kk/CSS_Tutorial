@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flex order</title>
+    <style>
+        .continer{
+            border: 2px solid black;
+            width: 400px;
+            display: flex;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            color: white ;
+            margin: 10px;
+            text-align: center;
+            line-height: 100px;
+        }
+        .continer :nth-child(1){
+            order:2
+        }
+        .continer :nth-child(2){
+            order:3
+        }
+        .continer :nth-child(3){
+            order:2
+        }
+    </style>
+</head>
+<body>
+    <h1>flex order</h1>
+    <div class="continer">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+    </div>
+</body>
+</html>
