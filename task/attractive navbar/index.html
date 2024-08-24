@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">vasanth</div>
+        <a href="#k" class="btn">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">service</a></li>
+                <li><a href="#">Download</a></li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        const btn=document.getElementsByClassName('btn')[0];
+        const navbar=document.getElementsByClassName('navbar-links')[0];
+
+        btn.addEventListener('click',()=>{
+            navbar.classList.toggle('active');
+
+        })
+
+        
+    </script>
+</body>
+</html>
