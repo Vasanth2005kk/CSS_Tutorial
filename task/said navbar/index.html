@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>said navbar</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">vasanth</div>
+        <button class="header-btn" id="btnNav" type="button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+    </div>
+    <div class="side-nav">
+        <div class="links">
+            <li>home</li>
+            <li>product</li>
+            <li>contact</li>
+            <li>download</li>
+        </div>
+        <div class="nav-overlay">
+
+        </div>
+    </div>
+    <div class="content">
+        <h1>heading-1</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo et minus nesciunt eius? Sit nisi delectus tenetur ut blanditiis assumenda, deleniti quas saepe, iste voluptatem velit doloremque architecto doloribus fugit nobis id eveniet facere sequi eligendi! Quia modi odio vero a. Saepe omnis tempore dolore, sed cupiditate velit quos earum quia aut repellat sapiente pariatur assumenda, rerum temporibus expedita a mollitia eaque necessitatibus consequuntur! Optio tenetur nulla facere sint pariatur omnis. Iste, ad similique dignissimos suscipit nisi obcaecati est voluptas quam voluptatum, iusto officia delectus impedit provident doloribus modi. Minima suscipit tenetur possimus animi illo aperiam quasi est, iste optio.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo et minus nesciunt eius? Sit nisi delectus tenetur ut blanditiis assumenda, deleniti quas saepe, iste voluptatem velit doloremque architecto doloribus fugit nobis id eveniet facere sequi eligendi! Quia modi odio vero a. Saepe omnis tempore dolore, sed cupiditate velit quos earum quia aut repellat sapiente pariatur assumenda, rerum temporibus expedita a mollitia eaque necessitatibus consequuntur! Optio tenetur nulla facere sint pariatur omnis. Iste, ad similique dignissimos suscipit nisi obcaecati est voluptas quam voluptatum, iusto officia delectus impedit provident doloribus modi. Minima suscipit tenetur possimus animi illo aperiam quasi est, iste optio.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo et minus nesciunt eius? Sit nisi delectus tenetur ut blanditiis assumenda, deleniti quas saepe, iste voluptatem velit doloremque architecto doloribus fugit nobis id eveniet facere sequi eligendi! Quia modi odio vero a. Saepe omnis tempore dolore, sed cupiditate velit quos earum quia aut repellat sapiente pariatur assumenda, rerum temporibus expedita a mollitia eaque necessitatibus consequuntur! Optio tenetur nulla facere sint pariatur omnis. Iste, ad similique dignissimos suscipit nisi obcaecati est voluptas quam voluptatum, iusto officia delectus impedit provident doloribus modi. Minima suscipit tenetur possimus animi illo aperiam quasi est, iste optio.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo et minus nesciunt eius? Sit nisi delectus tenetur ut blanditiis assumenda, deleniti quas saepe, iste voluptatem velit doloremque architecto doloribus fugit nobis id eveniet facere sequi eligendi! Quia modi odio vero a. Saepe omnis tempore dolore, sed cupiditate velit quos earum quia aut repellat sapiente pariatur assumenda, rerum temporibus expedita a mollitia eaque necessitatibus consequuntur! Optio tenetur nulla facere sint pariatur omnis. Iste, ad similique dignissimos suscipit nisi obcaecati est voluptas quam voluptatum, iusto officia delectus impedit provident doloribus modi. Minima suscipit tenetur possimus animi illo aperiam quasi est, iste optio.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo et minus nesciunt eius? Sit nisi delectus tenetur ut blanditiis assumenda, deleniti quas saepe, iste voluptatem velit doloremque architecto doloribus fugit nobis id eveniet facere sequi eligendi! Quia modi odio vero a. Saepe omnis tempore dolore, sed cupiditate velit quos earum quia aut repellat sapiente pariatur assumenda, rerum temporibus expedita a mollitia eaque necessitatibus consequuntur! Optio tenetur nulla facere sint pariatur omnis. Iste, ad similique dignissimos suscipit nisi obcaecati est voluptas quam voluptatum, iusto officia delectus impedit provident doloribus modi. Minima suscipit tenetur possimus animi illo aperiam quasi est, iste optio.</p>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const sideNav = document.querySelector('.side-nav');
+            const btnNav = document.querySelector('#btnNav');
+            const overlayScreen = document.querySelector('.nav-overlay');
+
+            btnNav.addEventListener('click', () => {
+                sideNav.classList.add('open');
+            });
+
+            overlayScreen.addEventListener('click', () => {
+                sideNav.classList.remove('open');
+            });
+        });
+    </script>
+</body>
+</html>
