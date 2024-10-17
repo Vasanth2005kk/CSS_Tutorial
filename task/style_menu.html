@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Menu Bar</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #0c071e;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .continer {
+            width: 400px;
+            height: 400px;
+            margin-top: 5%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+        }
+
+        div h1 {
+            font-family: "Roboto Mono", monospace;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: normal;
+            color: white;
+        }
+
+        .menu {
+            width: 100px;
+            height: 100px;
+            background-image:linear-gradient(to right, #fa2c5a, #fe492c);
+            margin-top: 100px;
+            position: relative;
+        }
+        .menu .line-1{
+            width: 80%;
+            height: 10px;
+            background:white;
+            position: absolute;
+            top: 20%;
+            right: 10%;
+            border-radius: 5px;
+        }
+        .menu .line-2{
+            width: 80%;
+            height: 10px;
+            background: white;
+            position: absolute;
+            top: 40%;
+            right: 10%;
+            border-radius: 5px;
+        }
+        .menu .line-3{
+            width: 80%;
+            height: 10px;
+            background: white;
+            position: absolute;
+            top: 60%;
+            right: 10%;
+            border-radius: 5px;
+        }
+        
+
+    </style>
+</head>
+
+<body>
+    <div class="continer">
+        <div>
+            <h1>Style Menu</h1>
+        </div>
+        <div class="menu">
+            <span class="line-1"></span>
+            <span class="line-2"></span>
+            <span class="line-3"></span>
+        </div>
+    </div>
+</body>
+
+</html>
